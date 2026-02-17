@@ -10,7 +10,7 @@ services:
         value: "RGNK~LaA1kdMI"
       - key: DATABASE_URL
         value: "postgresql://myapp_user:qM60XdnKXZPTuZ27yqE6K8SCqEKecyF9@dpg-d6a9p0a4d50c738p54ag-a/myapp_db_azi8"
-      - key: PORT
-        value: "8000"
       - key: SUDO
-        value: "2348096567473"
+        value: "2348096567473" # Put your phone number here (no + sign)
+      - key: STICKER_PACKNAME
+        value: "Caleb-MD"
