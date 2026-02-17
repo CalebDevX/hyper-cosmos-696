@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: my-application
+    name: raganork-md
     runtime: docker
     region: oregon
     plan: free
@@ -9,6 +9,8 @@ services:
       - key: SESSION
         value: "RGNK~LaA1kdMI"
       - key: DATABASE_URL
-        fromDatabase:
-          name: my-database
-          property: connectionString
+        value: "postgresql://myapp_user:qM60XdnKXZPTuZ27yqE6K8SCqEKecyF9@dpg-d6a9p0a4d50c738p54ag-a/myapp_db_azi8"
+      - key: PORT
+        value: "8000"
+      - key: SUDO
+        value: "2348096567473"
