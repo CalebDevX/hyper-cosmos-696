@@ -8,7 +8,7 @@ WORKDIR /rgnk
 
 RUN mkdir -p temp
 
-ENV TZ=Asia/Kolkata
+ENV TZ=Africa/Lagos
 
 RUN npm install -g --force yarn pm2
 
