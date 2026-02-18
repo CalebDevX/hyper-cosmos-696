@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: raganork-md
+    name: AchekBot
     runtime: docker
     region: oregon
     plan: free
@@ -9,7 +9,7 @@ services:
       - key: SESSION
         value: "RGNK~LaA1kdMI"
       - key: DATABASE_URL
-        value: "postgresql://myapp_user:qM60XdnKXZPTuZ27yqE6K8SCqEKecyF9@dpg-d6a9p0a4d50c738p54ag-a/myapp_db_azi8"
+        value: "postgresql://achekbot_user:NE4hoU6L9kH5YSrfTA1sa9YyBoFETbu0@dpg-d6avpcemcj7s73enu9d0-a/achekbot"
       - key: SUDO
         value: "2348096567473" # Put your phone number here (no + sign)
       - key: STICKER_PACKNAME
